@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("subtle-prism.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Card Layout */
+.card {
+  width: 500px;
+  height: auto;
+  padding: 30px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.card h1 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card > p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Button Styling */
+button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  background: #33f4f4f3;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background: rgb(64, 194, 64);
+}
+
+/* Result Styling */
+#result {
+  padding: 20px;
+  background: #f5f5f5;
+  border-radius: 10px;
+  color: #333;
+  line-height: 1.6;
+}
+
+#result h2 {
+  margin-bottom: 10px;
+}
